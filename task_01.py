@@ -14,6 +14,8 @@ num_list =[]
 for i in range(10):
     num_list.append(random.randint(1,15))
 user_number = (int(input("Введите число от 1 до 15: ")))
+if user_number > 16:
+   print("Введите корректное число")
 print(f"Это данный массив{num_list}")  
 count = 0
 for i in range(len(num_list)):
