@@ -11,7 +11,7 @@
    # -> 1
 import random
 num_list =[]
-for i in range(10):
+for i in range(int(input("количество элементов в массиве:? "))):
     num_list.append(random.randint(1,15))
 user_number = (int(input("Введите число от 1 до 15: ")))
 if user_number > 16:
